@@ -1,0 +1,150 @@
+
+  {"intents": [
+   {"tag": "greeting",
+     "patterns": ["مرحبا", "hello", "hey"],
+     "responses": ["Hello, how can I help you?"]
+   },
+    {"tag": "goodbye",
+     "patterns": ["bye","cya", "no thank you", "goodbye"],
+     "responses": ["Nice to help you. Bye"]
+     },
+    {"tag": "yes or no",
+     "patterns": ["yes"],
+     "responses": ["Complete the purchase"]
+     },
+    {"tag": "no or yes",
+     "patterns": ["no"],
+     "responses": ["End Process"]
+     },
+    {"tag": "tomato",
+     "patterns": ["I wanted to know the price of a kilo of tomatoes", "How much is a kilo of tomatoes","what is the price of tomatoes"],
+     "responses": ["The price of a kilo of tomatoes is 5 EGP"]
+     },
+    {"tag": "potato",
+     "patterns": ["I wanted to know the price of a kilo of potatoes", "How much is the price of a kilo of potatoes","what is the price of potatoes"],
+     "responses": ["The price of a kilo of potatoes is 7 EGP"]
+     },
+    {"tag": "option",
+     "patterns": ["I wanted to know the price of a kilo of cucumber", "How much is the price of a kilo of cucumber","what is the price of cucumber"],
+     "responses": ["The price of a kilo of cucumbers is 5 EGP"]
+     },
+    {"tag": "carrots",
+     "patterns": ["I wanted to know the price of a kilo of carrots", "How much is the price of a kilo of carrots","what is the price of carrots"],
+     "responses": ["The price of a kilo of carrots is 9 EGP"]
+     },
+    {"tag": "molokhia",
+     "patterns": ["I wanted to know the price of a kilo of Molokhia", "How much is the price of a kilo of Molokhia","what is the price of Molokhia"],
+     "responses": ["The price of a kilo of Molokhia is 12 EGP"]
+     },
+
+    {"tag": "okra",
+     "patterns": ["I wanted to know the price of a kilo of okra", "How much is a kilo of okra", "I wanted to know the price of a kilo of okra",
+                  "How much is a kilo of okra?","what is the price of okra"],
+     "responses": ["The price of a kilo of okra is 5 EGP"]
+     },
+
+    {"tag": "onion",
+     "patterns": ["I wanted to know the price of a kilo of onions", "How much is the price of a kilo of onions","what is the price of onions"],
+     "responses": ["The price of a kilo of onions is 6 EGP"]
+     },
+    {"tag": "cabbage",
+     "patterns": ["I wanted to know the price of a kilo of cabbage", "How much is the price of a kilo of cabbage","what is the price of cabbage"],
+     "responses": ["The price of a kilo of cabbage is 9 EGP"]
+     },
+
+    {"tag": "pepper",
+     "patterns": ["I wanted to know the price of a kilo of pepper", "How much is a kilo of pepper","what is the price of pepper"],
+     "responses": ["The price of a kilo of pepper is 7 EGP"]
+     },
+    {"tag": "beans",
+     "patterns": ["I wanted to know the price of a kilo of beans", "How much is a kilo of beans","what is the price of beans"],
+     "responses": ["The price of a kilo of beans is 6 EGP"]
+     },
+    {"tag": "zucchini",
+     "patterns": ["I wanted to know the price of a kilo of zucchini", "How much is the price of a kilo of zucchini","what is the price of zucchini"],
+     "responses": ["The price of a kilo of zucchini is 7 EGP"]
+     },
+    {"tag": "eggplant",
+     "patterns": ["I wanted to know the price of a kilo of eggplant", "How much is a kilo of eggplant","what is the price of eggplant"],
+     "responses": ["The price of a kilo of eggplant is 5 EGP"]
+     },
+    {"tag": "spinach",
+     "patterns": ["I wanted to know the price of a kilo of spinach", "How much is a kilo of spinach","what is the price of spinach"],
+     "responses": ["The price of a kilo of spinach is 7 EGP"]
+     },
+
+    {"tag": "potato",
+     "patterns": ["I wanted to know the price of a kilo of potatoes", "How much is the price of a kilo of potatoes","what is the price of potatoes"],
+     "responses": ["The price of a kilo of potatoes is 4 EGP"]
+     },
+    {"tag": "broccoli",
+     "patterns": ["I wanted to know the price of a kilo of broccoli", "How much is a kilo of broccoli","what is the price of broccoli"],
+     "responses": ["The price of a kilo of broccoli is 8 EGP"]
+     },
+    {"tag": "chicken thigh",
+     "patterns": ["How much is a chicken thigh","I wanted to know the price of chicken thigh ","what is the price of chicken thigh"],
+     "responses": ["A kilo of chicken thighs is 60 pounds"]
+     },
+    {"tag": "chicken breast",
+     "patterns": ["How much is a chicken breast","I wanted to know the price of chicken breast ","what is the price of chicken breast"],
+     "responses": ["A kilo of chicken breasts is 120 pounds"]
+     },
+    {"tag": "chicken",
+     "patterns": ["How much is a chicken","I wanted to know the price of chicken ","what is the price of chicken"],
+     "responses": ["A kilo of chicken is 300 pounds"]
+     },
+    {"tag": "meat",
+     "patterns": ["How much is meat","I wanted to know the price of meat ","what is the price of meat"],
+     "responses": ["1 kilo of minced meat 120 pounds"]
+     },
+
+    {"tag": "sausage",
+     "patterns": ["How much is a sausage","I wanted to know the price of sausage ","what is the price of sausage"],
+     "responses": ["A kilo of sausage is 120 pounds"]
+     },
+    {"tag": "kofta",
+     "patterns": ["How much is the price of his kofta","I wanted to know the price of kofta ","what is the price of kofta"],
+     "responses": ["A kilo of kofta is 120 pounds"]
+     },
+    {"tag": "milk",
+     "patterns": ["How much is a liter of milk","I wanted to know the price of milk","what is the price of milk"],
+     "responses": ["The price of a liter of milk is 60 pounds"]
+     },
+    {"tag": "chesse",
+     "patterns": ["How much is the cheese", "I wanted to know the price of chesse ","what is the price of chesse"],
+     "responses": ["A kilo of cheese is 55 pounds"]
+     },
+    {"tag": "buy chicken",
+     "patterns": ["I want to buy chicken"],
+     "responses": ["Added to cart, do you want to add something else?"]
+     },
+    {"tag": "buy chicken breast",
+     "patterns": ["I want to buy chicken breast"],
+     "responses": ["Added to cart, would you like to add something else?"]
+     },
+    {"tag": "buy chicken thighs",
+     "patterns": ["I want to buy chicken thighs"],
+     "responses": ["Added to cart, would you like to add something else?"]
+     },
+    {"tag": "buy meat",
+     "patterns": ["I want to buy meat"],
+     "responses": ["Added to cart, would you like to add something else?"]
+     },
+    {"tag": "buy sausage",
+     "patterns": ["I want to buy a sausage"],
+     "responses": ["Added to cart, would you like to add something else?"]
+     },
+    {"tag": "buy kofta",
+     "patterns": ["I want to buy kofta"],
+     "responses": ["Added to cart, would you like to add something else?"]
+     },
+    {"tag": "buy milk",
+     "patterns": ["I want to buy milk"],
+     "responses": ["Added to cart, would you like to add something else?"]
+     },
+    {"tag": "buy cheese",
+     "patterns": ["I want to buy cheese", "I want to buy cheese"],
+     "responses": ["Added to cart, would you like to add something else?"]
+    }
+
+]}
